@@ -1,7 +1,26 @@
-/*var coder;
+
 window.addEventListener('load',function(){
   var coder = prompt("Coder, cuál es tu nombre?");
-});*/
+  var saludo = document.getElementById('saludo');
+  saludo.innerHTML = "Hola coder "+ coder
+});
+
+
+function myFunction() {
+	document.getElementById("myDropdown").classList.toggle("show");
+}
+window.onclick = function(event) {
+	if (!event.target.matches('.dropbtn')) {
+		var dropdowns = document.getElementsByClassName("dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			}
+		}
+	}
+}
 
 //Botones
 var s1 = document.getElementById('s1');

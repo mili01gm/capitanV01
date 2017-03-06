@@ -7,12 +7,18 @@ var coders = [ { nombre : "Meche", apellido : "Zubieta",  promocion : "1era. pro
 			 { nombre : "Michelle", apellido : "Seguil",  promocion : "5ta. promoción", estado : "Trabajando" },
 			 { nombre : "Diana", apellido : "Navarro",  promocion : "5ta. promoción", estado : "Trabajando" } ];
 
-var alumnas = document.getElementsByClassName('alumnas');
-var i;
+var a1 = document.getElementById('a1');
+var a2 = document.getElementById('a2');
+var a3 = document.getElementById('a3');
+var a4 = document.getElementById('a4');
+var a5 = document.getElementById('a5');
+var a6 = document.getElementById('a6');
+var a7 = document.getElementById('a7');
+var a8 = document.getElementById('a8');
+var alumnas = [a1,a2,a3,a4,a5,a6,a7,a8];
 
-  alumnas.forEach(function(e){
-  this.innerHTML = "Nombre: " + coders[e].nombre +"<br>"+
-                   "Apellido: " + coders[e].apellido +"<br>"+
-                   "Promoción: " + coders[e].promoción +"<br>"+
-                   "Estado: " + coders[e].estado
-  })
+
+a1.innerHTML = "Nombre: " + Mercedes
+/*for(var i = 0; i<alumnas.length; i++){
+	alumnas[i].innerHTML = "Nombre: "+coders[i].nombre
+}*/

@@ -30,7 +30,7 @@ var s1 = document.getElementById('s1');
 var s2 = document.getElementById('s2');
 var s3 = document.getElementById('s3');
 var floro = document.getElementById('floro');
-
+var quiz = document.getElementById('quiz');
 
 
 s1.addEventListener('click', function(){
@@ -38,7 +38,10 @@ s1.addEventListener('click', function(){
                     "<ol>"+"<li>"+"Fundamentos de Programación"+"</li>"+
                            "<li>"+"Funciones"+"</li>"+
                            "<li>"+"Arreglos"+"</li>"+
-                           "<li>"+"Objetos"+"</li>"+"</ol>"
+                           "<li>"+"Objetos"+"</li>"+"</ol>"+"<br>"
+
+  quiz.innerHTML = "<h2>"+"Quiz"+"</h2>"
+
 });
 
 s2.addEventListener('click', function(){
@@ -48,7 +51,10 @@ s2.addEventListener('click', function(){
                            "<li>"+"Manejo de comandos básicos de git en la terminal"+"</li>"+
                            "<li>"+"Pruebas unitarias"+"</li>"+
                            "<li>"+"Git / Rosolución de conflictos / Branching model"+"</li>"+
-                           "<li>"+"DOM"+"</li>"+"</ol>"
+                           "<li>"+"DOM"+"</li>"+"</ol>"+"<br>"
+
+  quiz.innerHTML = "<h2>"+"Quiz"+"</h2>"
+
 });
 
 s3.addEventListener('click', function(){

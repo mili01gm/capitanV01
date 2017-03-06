@@ -90,4 +90,12 @@ input {
   display:block;
 }
 
-.salida
+#sprint1{
+	display : none;
+}
+#sprint2{
+	display : block;
+}
+#sprint3{
+	display : none;
+}

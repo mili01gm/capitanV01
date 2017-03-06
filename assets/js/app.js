@@ -1,9 +1,12 @@
+var coder;
+var saludo = document.getElementById('saludo');
 
 window.addEventListener('load',function(){
-  var coder = prompt("Coder, cuál es tu nombre?");
-  var saludo = document.getElementById('saludo');
+  coder = prompt("Coder, cuál es tu nombre?");
   saludo.innerHTML = "Hola coder "+ coder
+  window.removeEventListener('load', load, false);
 });
+
 
 
 function myFunction() {

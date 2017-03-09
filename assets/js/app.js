@@ -4,7 +4,7 @@ var saludo = document.getElementById('saludo');
 window.addEventListener('load',function(){
   coder = prompt("Coder, cuál es tu nombre?");
   saludo.innerHTML = "Hola coder "+ coder
-  window.removeEventListener('load', load, false);
+  window.removeEventListener('load', false);
 });
 
 
